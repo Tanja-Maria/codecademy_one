@@ -1,7 +1,7 @@
 import React from 'react';
 
-function App() {
-  return <h1>Hello World!</h1>;
+function MyComponent(props) {
+  return <h1>Hello World out there, {props.name}!</h1>;
 }
 
-export default App;
+export default MyComponent;
